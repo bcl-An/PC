@@ -40,7 +40,7 @@ CPU类要求getSpeed()返回speed的值，要求setSpeed(int m)方法将参数m�
 
 
 # 核心代码：
-
+```
     private String pinpai;
     private int time;
     PC(String abc, int time){
@@ -59,7 +59,7 @@ CPU类要求getSpeed()返回speed的值，要求setSpeed(int m)方法将参数m�
         System.out.println("CPU speed"+cpu.getSpeed());
         System.out.println("HardDisk amount"+hd.getAmount());
     }
-    
+   ```
 # 实验结果：
 
    CPU speed2200
