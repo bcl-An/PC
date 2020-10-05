@@ -1,7 +1,7 @@
 # PC
-实验二
+# 实验二
 
-实验内容：
+# 实验内容：
 
 1、基本要求：完成教材p110 第四题关于PC、内存等模拟的程序。
 
@@ -20,7 +20,7 @@
    Readme.md文件写作（即实验报告部分）。
    每名同学通过云班课的作业提交github实验的URL链接。
 
-实验设计：
+# 实验设计：
 
 CPU类要求getSpeed()返回speed的值，要求setSpeed(int m)方法将参数m的值赋值给speed; HardDisk类要求getAmount()返回amount的值，要求setAmount(int m)方法将参数m的值赋值给amount; PC类要求setCPU(CPU c)将参数c的值赋值给cpu,要求setHardDisk (HardDisk h)方法将参数h的值赋值给hd,要求show()方法能显示cpu的速度和硬盘的容量。
 
@@ -39,7 +39,7 @@ CPU类要求getSpeed()返回speed的值，要求setSpeed(int m)方法将参数m�
 (6) pc调用show()方法。
 
 
-核心代码：
+# 核心代码：
 
     private String pinpai;
     private int time;
@@ -60,12 +60,12 @@ CPU类要求getSpeed()返回speed的值，要求setSpeed(int m)方法将参数m�
         System.out.println("HardDisk amount"+hd.getAmount());
     }
     
-实验结果：
+# 实验结果：
 
    CPU speed2200
    
    HardDisk amount200
    
-实验感想：
+# 实验感想：
 
    通过本次实验，我初步掌握了JAVA程序的编写步骤，并且掌握了构造方法的书写。
