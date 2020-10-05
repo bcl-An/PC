@@ -2,6 +2,7 @@
 实验二
 
 实验内容：
+
 1、基本要求：完成教材p110 第四题关于PC、内存等模拟的程序。
 2、附加要求：
    类中定义不少于两个构造方法；
@@ -19,6 +20,7 @@
 实验设计：
 
 核心代码：
+
     private String pinpai;
     private int time;
     PC(String abc, int time){
@@ -37,8 +39,12 @@
         System.out.println("CPU speed"+cpu.getSpeed());
         System.out.println("HardDisk amount"+hd.getAmount());
     }
+    
 实验结果：
-   CPU speed2000
+
+   CPU speed2200
    HardDisk amount200
+   
 实验感想：
+
    通过本次实验，我初步掌握了JAVA程序的编写步骤，并且掌握了构造方法的书写。
