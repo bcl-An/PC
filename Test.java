@@ -5,7 +5,7 @@ public class Test {
         PC pc =new PC("abc",2020);
         CPU cpu = new CPU("abc");
         HardDisk hd = new HardDisk("abc");
-        cpu.setSpeed(2000);
+        cpu.setSpeed(2200);
         hd.setAmount(200);
         pc.setCpu(cpu);
         pc.setHardDisk(hd);
