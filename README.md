@@ -23,7 +23,7 @@
 # 实验设计：
 
 ## CPU类<br>
->>要求getSpeed()返回speed的值，要求setSpeed(int m)方法将参数m的值赋值给speed; HardDisk类要求getAmount()返回amount的值，要求setAmount(int m)方法将参数m的值赋值给amount; PC类要求setCPU(CPU c)将参数c的值赋值给cpu,要求setHardDisk (HardDisk h)方法将参数h的值赋值给hd,要求show()方法能显示cpu的速度和硬盘的容量。<br>
+>要求getSpeed()返回speed的值，要求setSpeed(int m)方法将参数m的值赋值给speed; HardDisk类要求getAmount()返回amount的值，要求setAmount(int m)方法将参数m的值赋值给amount; PC类要求setCPU(CPU c)将参数c的值赋值给cpu,要求setHardDisk (HardDisk h)方法将参数h的值赋值给hd,要求show()方法能显示cpu的速度和硬盘的容量。<br>
 ## 主类Test<br>
 >(1) main方法中创建一个CPU对象cpu,cpu将自己的speed设置为2200.<br>
 >(2) main 方法中创建一个HardDisk对象hd, hd 将自己的amount设置为200.<br>
