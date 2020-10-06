@@ -68,7 +68,7 @@
 
 ## 实验结果：
 
-![](http://www.baidu.com/img/bdlogo.gif"运行结果") 
+![](https://github.com/bcl-An/PC/blob/main/yxjg.png"运行结果") 
 
 brand:abc time:2020
 
