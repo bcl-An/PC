@@ -31,13 +31,13 @@ CPU类要求getSpeed()返回speed的值，要求setSpeed(int m)方法将参数m�
 
 (1) main方法中创建一个CPU对象cpu,cpu将自己的speed设置为2200.
 
-(2) main 方法中创建一个HardDisk对象disk, disk 将自己的amount设置为200.
+(2) main 方法中创建一个HardDisk对象hd, hd 将自己的amount设置为200.
 
 (3) main方法中创建一个PC对象pc。
 
 (4) pc调用setCPU(CPU c)方法，调用时实参是cpu.
 
-(5) pc调用setHardDisk(HardDisk h)方法，调用时实参是disk.
+(5) pc调用setHardDisk(HardDisk h)方法，调用时实参是hd.
 
 (6) pc调用show()方法。
 
