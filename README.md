@@ -36,6 +36,7 @@
 
 # 核心代码：<br>
     定义两属性，并初始化，过程中应用逻辑判断。<br>
+    定义属性及赋值，和输出方法。输出方法无法通过cpu.pinpai和hd.pinpai访问。<br>
     ```JAVA
     private String pinpai;
     private int time;
@@ -47,8 +48,6 @@
             this.time = time;
         }
     }
-    ```
-    ```JAVA
    CPU cpu;
     HardDisk hd;
     public void setCpu(CPU cpu) {
