@@ -41,6 +41,7 @@ CPU类要求getSpeed()返回speed的值，要求setSpeed(int m)方法将参数m�
 
 (6) pc调用show()方法。
 
+（添加部分属性，并进行合理逻辑判断，同时体验改变修饰符体验其作用）
 
 # 核心代码：
 ```
@@ -65,10 +66,12 @@ CPU类要求getSpeed()返回speed的值，要求setSpeed(int m)方法将参数m�
    ```
 # 实验结果：
 
-   CPU speed2200
-   
-   HardDisk amount200
+brand:abc time:2020
+
+CPU speed:2200
+
+HardDisk amount:200
    
 # 实验感想：
 
-   通过本次实验，我初步掌握了JAVA程序的编写步骤，并且掌握了构造方法的书写。
+   通过本次实验，我初步掌握了JAVA程序的编写步骤，并且掌握了构造方法的书写，同时学会运用合理的逻辑判断。通过扩展，我初步了解了修饰符的运用，并将其应用到了程序中。
