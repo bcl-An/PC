@@ -44,14 +44,22 @@ CPU类要求getSpeed()返回speed的值，要求setSpeed(int m)方法将参数m�
 （添加部分属性，并进行合理逻辑判断，同时体验改变修饰符体验其作用）
 
 # 核心代码：
-```
+    
+    定义两属性，并初始化，过程中应用逻辑判断。
+    
+    ```
     private String pinpai;
     private int time;
-    PC(String abc, int time){
+    PC(String pinpai, int time){
         this.pinpai = pinpai;
-        this.time = time;
+        if (time>2020){
+            this.time=2020;
+        }else {
+            this.time = time;
+        }
     }
-    CPU cpu;
+   ```
+   CPU cpu;
     HardDisk hd;
     public void setCpu(CPU cpu) {
         this.cpu = cpu;
@@ -60,10 +68,12 @@ CPU类要求getSpeed()返回speed的值，要求setSpeed(int m)方法将参数m�
         this.hd = hd;
     }
     public void show(){
-        System.out.println("CPU speed"+cpu.getSpeed());
-        System.out.println("HardDisk amount"+hd.getAmount());
+        System.out.println("brand:"+pinpai+" time:"+time);
+        System.out.println("CPU speed:"+cpu.getSpeed());
+        System.out.println("HardDisk amount:"+hd.getAmount());
     }
-   ```
+    ```
+   
 # 实验结果：
 
 brand:abc time:2020
