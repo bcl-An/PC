@@ -2,7 +2,7 @@ package test;
 
 public class CPU {
     private String pinpai;
-    int speed;
+    public int speed;
     CPU(String pinpai){
         this.pinpai = pinpai;
     }
