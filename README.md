@@ -69,7 +69,6 @@
 ## 实验结果：
 
 ![列表yxjg.png图片](https://github.com/bcl-An/PC/blob/main/yxjg.png "运行结果") 
-![](https://github.com/bcl-An/PC/blob/main/yxjg.png )
 
 ## 实验感想：
 
